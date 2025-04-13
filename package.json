@@ -1,0 +1,37 @@
+{
+  "name": "@srcpunks/src_stasis",
+  "description": "Data management app for the decentralized and censorship-resistant Swarm network.",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srcpunks/src_stasis.git"
+  },
+  "author": "Xavier Saliniere <bonjour@xaviers.sh>",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "@tauri-apps/cli": "^2"
+  }
+}

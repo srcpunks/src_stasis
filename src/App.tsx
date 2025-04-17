@@ -8,8 +8,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@srcpunks/src_ui";
-import "./App.css";
+} from '@srcpunks/src_ui';
+import './App.css';
 
 function App() {
   return (

@@ -25,19 +25,19 @@
     "format": "prettier --write --config ./.prettierrc --ignore-path './src-tauri/target/**/*' --ignore-unknown"
   },
   "dependencies": {
-    "@srcpunks/src_ui": "^0.0.7",
+    "@srcpunks/src_ui": "^0.0.8",
     "@tailwindcss/vite": "^4.1.4",
     "@tauri-apps/api": "^2.5.0",
     "@tauri-apps/plugin-opener": "^2.2.6",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@tauri-apps/cli": "^2.5.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.6",
     "@vitejs/plugin-react": "^4.4.0",
     "eslint": "^9.25.0",
     "eslint-config-prettier": "^10.1.2",
